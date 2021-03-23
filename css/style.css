@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#rosso {
+    width: 100%;
+    height: 100vh;
+    background-color: #FF0000;
+    position: relative;
+}
+
+#verde {
+    width: 100%; 
+    height: 100vh; 
+    background-color: #008000;
+    position: relative; 
+}
+
+#giallo {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFF00;
+    position: relative;
+}
+
+/* css dell'header  */
+
+nav li {
+    list-style: none;
+    display:inline-block;
+    margin: 0 5px;
+}
+nav a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    background-color: white;
+}
+
+nav {
+    position: fixed;
+    width: 150px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    margin: 2% 1%;
+}
+/* css del main */
+
+figure {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+main img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFF00;
+}
+
+#font-verde {
+    color: #008000;
+}
